@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(to right, rgb(80, 67, 44), rgb(51, 51, 89), rgb(80, 49, 49));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    background: linear-gradient(to right, rgb(173, 158, 133), rgb(177, 177, 222), rgb(226, 167, 167));
+    text-align: center;
+    border: 3px solid #4a494f;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 10px;
+    width: 1000px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.cadastrar-tarefa {
+    background: linear-gradient(to right, rgb(173, 158, 133), rgb(177, 177, 222), rgb(226, 167, 167));
+    border: 3px solid #4a494f;
+    border-radius: 20px;
+    padding: 40px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+input {
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+}
+  
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(255, 255, 255, 0.386);
+    border-radius: 10px;
+    width: 150px;
+    padding: 15px;
+    color: rgb(46, 46, 46);
+}
+
+.tabela {
+    background: linear-gradient(to right, rgb(173, 158, 133), rgb(177, 177, 222), rgb(226, 167, 167));
+    border: 3px solid #4a494f;
+    border-radius: 20px;
+    padding: 40px;
+    width: 1000px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.listar {
+    background: linear-gradient(to right, rgb(80, 67, 44), rgb(51, 51, 89), rgb(80, 49, 49));
+    color: azure;
+    border: 3px solid #5e5d65;
+    border-radius: 20px;
+    padding: 10px;
+    width: 900px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    position: relative;
+}
+
+.listar .tarefas {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.listar .concluida {
+    display: flex; /* Alterado */
+    align-items: center;
+    margin-left: auto; /* Alterado */
+}
+
+.atualizar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.atualizar button {
+    margin-top: 10px;
+    width: 200px;
+}
+
+
